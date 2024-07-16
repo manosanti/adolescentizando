@@ -2,7 +2,7 @@ import React from "react";
 
 function SpotifyPlaylist() {
   return (
-    <div className="bg-slate-900">
+    <div className="bg-slate-900 h-screen">
       <div className="max-w-7xl m-auto">
         <div className="text-white">
           <span className="font-semibold">DIRETAMENTE DO SPOTIFY:</span>
@@ -14,7 +14,7 @@ function SpotifyPlaylist() {
             Playlist 'Adolescentizando'
           </h2>
           <iframe
-            src="https://open.spotify.com/embed/artist/1elUiq4X7pxej6FRlrEzjM?utm_source=generator"
+            src="https://open.spotify.com/embed/playlist/6fybjFwHoWjusI4Zfo5TB0?utm_source=generator"
             width="100%"
             frameBorder="0"
             allowfullscreen=""

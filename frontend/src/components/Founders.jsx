@@ -3,58 +3,17 @@ import instagramLogo from "../img/instagram-logo.png";
 
 // Images
 import ilustracaoDescricao from '../img/ilustracao-descricao-adolescentizando.svg'
+import brendaPhoto from '../img/brenda.jpg'
+import lucasPhoto from '../img/lucas.jpeg'
+import thaissaPhoto from '../img/thaissa.jpg'
+import stellaPhoto from '../img/stella.jpg'
 
 function Founders() {
   const members = [
     {
       secaoImagem: {
         imagem:
-          "https://i.pinimg.com/736x/ac/fa/96/acfa96ca7941387281ebe48fb10d4519.jpg",
-        textAlt: "teste",
-      },
-      nome: "Lucas Santiago",
-      cargo: "CEO",
-      descricao:
-        "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
-      redeSocial: {
-        instagram: "https://www.instagram.com/",
-        instagramNome: "manosanttt",
-      },
-    },
-    {
-      secaoImagem: {
-        imagem:
-          "https://i.pinimg.com/736x/ac/fa/96/acfa96ca7941387281ebe48fb10d4519.jpg",
-        textAlt: "teste",
-      },
-      nome: "Brenda",
-      cargo: "CEO",
-      descricao:
-        "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
-      redeSocial: {
-        instagram: "https://www.instagram.com/",
-        instagramNome: "manosanttt",
-      },
-    },
-    {
-      secaoImagem: {
-        imagem:
-          "https://i.pinimg.com/736x/ac/fa/96/acfa96ca7941387281ebe48fb10d4519.jpg",
-        textAlt: "teste",
-      },
-      nome: "Esther",
-      cargo: "CEO",
-      descricao:
-        "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
-      redeSocial: {
-        instagram: "https://www.instagram.com/",
-        instagramNome: "manosanttt",
-      },
-    },
-    {
-      secaoImagem: {
-        imagem:
-          "https://i.pinimg.com/736x/ac/fa/96/acfa96ca7941387281ebe48fb10d4519.jpg",
+          thaissaPhoto,
         textAlt: "teste",
       },
       nome: "Thaissa",
@@ -66,10 +25,55 @@ function Founders() {
         instagramNome: "manosanttt",
       },
     },
+    {
+      secaoImagem: {
+        imagem:
+          brendaPhoto,
+        textAlt: "teste",
+      },
+      nome: "Brenda Mendes",
+      cargo: "CO-Founder",
+      descricao:
+        "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
+      redeSocial: {
+        instagram: "https://www.instagram.com/",
+        instagramNome: "manosanttt",
+      },
+    },
+    {
+      secaoImagem: {
+        imagem:
+          stellaPhoto,
+        textAlt: "teste",
+      },
+      nome: "Stella",
+      cargo: "Designer",
+      descricao:
+        "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
+      redeSocial: {
+        instagram: "https://www.instagram.com/",
+        instagramNome: "manosanttt",
+      },
+    },
+    {
+      secaoImagem: {
+        imagem:
+          lucasPhoto,
+        textAlt: "teste",
+      },
+      nome: "Lucas Santiago",
+      cargo: "Desenvolvedor",
+      descricao:
+        "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
+      redeSocial: {
+        instagram: "https://www.instagram.com/",
+        instagramNome: "manosanttt",
+      },
+    },
   ];
 
   return (
-    <div className="bg-background-color">
+    <div className="bg-background-color p-32">
       <div className="max-w-7xl m-auto">
         <h2 className="text-blue-primary text-center font-bold text-5xl">QUEM SOMOS NÓS?</h2>
         <p className="text-center text-lg text-gray-description">

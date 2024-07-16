@@ -12,6 +12,10 @@
   color: transparent;
 }
 
+.mb-pages {
+  margin-bottom: 2rem;
+}
+
 .font-bad-script {
   font-family: 'bad script', cursive;
 }
