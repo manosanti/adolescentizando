@@ -6,7 +6,7 @@ import CVV from './components/CVV'
 import DepressionTDAH from './components/DepressionTDAH'
 import Founders from './components/Founders'
 import HomePage from './components/HomePage'
-import LetterToFuture from './components/letterToFuture'
+import LetterToFuture from './components/LetterToFuture'
 import SpotifyPlaylist from './components/spotifyPlaylist'
 import TeraphyPrograms from './components/TeraphyPrograms'
 
