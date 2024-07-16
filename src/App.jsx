@@ -1,14 +1,13 @@
-import './App.css'
-import AboutAnxiety from './components/AboutAnxiety'
-import AnxietyAttack from './components/AnxietyAttack'
-import Conclusion from './components/Conclusion'
-import CVV from './components/CVV'
-import DepressionTDAH from './components/DepressionTDAH'
-import Founders from './components/Founders'
 import HomePage from './components/HomePage'
+import Founders from './components/Founders'
+import AboutAnxiety from './components/AboutAnxiety'
 import LetterToFuture from './components/LetterToFuture'
-import SpotifyPlaylist from './components/spotifyPlaylist'
+import DepressionTDAH from './components/DepressionTDAH'
+import SpotifyPlaylist from './components/SpotifyPlaylist'
 import TeraphyPrograms from './components/TeraphyPrograms'
+import AnxietyAttack from './components/AnxietyAttack'
+import CVV from './components/CVV'
+import Conclusion from './components/Conclusion'
 
 function App() {
   return (
