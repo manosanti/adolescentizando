@@ -1,6 +1,7 @@
 import './App.css'
 import AboutAnxiety from './components/AboutAnxiety'
 import AnxietyAttack from './components/AnxietyAttack'
+import Conclusion from './components/Conclusion'
 import CVV from './components/CVV'
 import DepressionTDAH from './components/DepressionTDAH'
 import Founders from './components/Founders'
@@ -21,6 +22,7 @@ function App() {
       <TeraphyPrograms />
       <AnxietyAttack />
       <CVV />
+      <Conclusion />
     </div>
   )
 }

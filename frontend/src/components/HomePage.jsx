@@ -1,49 +1,38 @@
-import React from 'react'
+import React from "react";
 
 
+// Images
+import logoAdolescentizando from '../img/logo-adolescentizando.jpg'
 
 function HomePage() {
+  return (
+    <div className="bg-bege-primary py-48">
+      <div className="mx-auto max-w-7xl">
+        <div className="flex items-center justify-between">
+          <div className="w-3/5">
+            <h2 className="font-bold mb-4 text-gray-primary text-6xl">
+              O seu guia para{" "}
+              <span className="text-blue-500">Saúde Mental</span> é aqui, na{" "}
+              <span className="text-blue-500">Adolescentizando</span>!
+            </h2>
+            <p className="text-gray-description">
+              Bem-vindo ao{" "}
+              <span className="font-bold">Adolescentizando</span>,
+              um projeto dedicado a apoiar a saúde mental dos adolescentes.
+              Aqui, oferecemos recursos e uma comunidade acolhedora para ajudar
+              você a enfrentar os desafios emocionais e construir uma vida
+              equilibrada e feliz. Junte-se a nós nessa jornada!
+            </p>
+          </div>
 
-    return (
-
-        <div className='h-screen bg-white'>
-
-            <div>
-
-                <div className='grid grid-cols-2'>
-
-                    <div>
-
-                        <h2 className='font-bold text-gray-700 text-6xl'>O seu guia para <span className='text-blue-500'>Saúde Mental</span> é aqui, na <span className='text-blue-500'>Adolescentizando</span>!</h2>
-
-                        <p className='text-gray-600'>Bem-vindo ao <span className='text-gray-900 font-bold'>Adolescentizando</span>, um projeto dedicado a apoiar a saúde mental dos adolescentes. Aqui, oferecemos recursos e uma comunidade acolhedora para ajudar você a enfrentar os desafios emocionais e construir uma vida equilibrada e feliz. Junte-se a nós nessa jornada!</p>
-
-                        <div className='flex gap-3'>
-
-                            <a href="#!" className='text-white bg-blue-600 p-2 px-5 text-xl rounded-full'>Conhecer</a>
-
-                            <a href="#!" className='text-blue-600 bg-white p-2 px-5 text-xl rounded-full border border-blue-600'>Assistir Introdução</a>
-
-                        </div>
-
-                    </div>
-
-                    <div>
-
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
+          <div>
+            <img src={logoAdolescentizando} className="h-96 rounded-full shadow-lg shadow-black/5" draggable="false" alt="" />
+          </div>
         </div>
-
-    )
-
+      </div>
+    </div>
+    
+  );
 }
 
-
-
-export default HomePage
+export default HomePage;

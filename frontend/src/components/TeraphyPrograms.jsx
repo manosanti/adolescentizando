@@ -42,12 +42,12 @@ function TeraphyPrograms() {
   ];
 
   return (
-    <div className="bg-background-color p-4">
+    <div className="bg-background-color py-16">
       <div className="max-w-7xl m-auto">
-        <div className="text-blue-primary text-center mb-8">
+        <div className="text-blue-primary text-center mb-12">
           <span className="font-semibold">SERVIÇOS PÚBLICOS DE SAÚDE</span>
           <h2 className="font-bold text-6xl mb-4">Programas de Terapias Acessíveis das Faculdades</h2>
-          <p>
+          <p className="text-gray-primary">
             Muitas universidades renomadas oferecem serviços de psicoterapia a
             preços acessíveis ou até gratuitos, atendendo tanto estudantes
             quanto a comunidade em geral. Aqui estão alguns exemplos de
@@ -55,7 +55,7 @@ function TeraphyPrograms() {
           </p>
         </div>
 
-        <div className="mb-8">
+        <div className="mb-20">
           {teraphyProgramsUniversity.map((program, index) => (
             <div key={index} className="mb-4">
               <h4 className="text-xl text-blue-primary font-bold">
@@ -67,11 +67,11 @@ function TeraphyPrograms() {
         </div>
 
         <div>
-          <h3 className="text-4xl font-bold text-blue-primary mb-4">
+          <h3 className="text-4xl font-bold text-blue-primary mb-2">
             Centros de Atenção Psicossocial (CAPS) e Unidades Básicas de Saúde
             (UBS)
           </h3>
-          <p>
+          <p className="mb-10">
             Os serviços públicos de saúde no Brasil também oferecem acesso a
             tratamentos psicológicos e psiquiátricos através dos Centros de
             Atenção Psicossocial (CAPS) e das Unidades Básicas de Saúde (UBS).
