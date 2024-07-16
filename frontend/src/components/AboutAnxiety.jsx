@@ -1,7 +1,7 @@
 import React from "react";
 
 // Imagens
-import ilustracaoMeditacao from "../img/meditacao.svg";
+import ilustracaoMeditacao from "../img/meditacao.png";
 import ilustracaoExercicioFisico from "../img/ilustracao-exercicio-fisico.png";
 import respiracaoDiafragmatica from "../img/respiracao-diafragmatica.png";
 import profissionalSaude from "../img/profissional-saude.png";

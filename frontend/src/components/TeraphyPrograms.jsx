@@ -22,6 +22,38 @@ function TeraphyPrograms() {
       descricao:
         "Centro de Atendimento Psicológico (CAP): Oferece atendimento psicoterapêutico realizado por estudantes de pós-graduação em Psicologia, sob supervisão.",
     },
+    {
+      titulo: "Universidade Federal de Minas Gerais (UFMG)",
+      descricao: "Serviço de Psicologia Aplicada (SPA): Oferece atendimentos psicológicos para a comunidade interna e externa.",
+    },
+    {
+      titulo: "Universidade Federal do Rio Grande do Sul (UFRGS)",
+      descricao: "Centro de Atendimento Psicológico (CAP): Disponibiliza psicoterapia para estudantes e funcionários da universidade."
+    },
+    {
+      titulo: "Universidade Federal do Paraná (UFPR)",
+      descricao: "Serviço de Psicologia da UFPR: Oferece suporte psicológico para alunos, professores e técnicos administrativos.",
+    },
+    {
+      titulo: "Universidade Federal da Bahia (UFBA)",
+      descricao: "Serviço de Psicologia (SerPsi): Disponibiliza atendimento psicológico para a comunidade acadêmica.",
+    },
+    {
+      titulo: "Universidade Federal de Pernambuco (UFPE)",
+      descricao: "Serviço de Psicologia Aplicada (SPA): Fornece atendimento psicológico para a comunidade interna e externa.",
+    },
+    {
+      titulo: "Universidade Federal do Ceará (UFC)",
+      descricao: "Centro de Psicologia Aplicada (CPA): Oferece serviços de psicoterapia para a comunidade universitária.",
+    },
+    {
+      titulo: "Universidade de Brasília (UnB)",
+      descricao: "Serviço de Psicologia Aplicada (SPA): Disponibiliza atendimento psicológico para estudantes e funcionários.",
+    },
+    {
+      titulo: "Universidade Federal do Pará (UFPA)",
+      descricao: "Serviço de Psicologia Aplicada (SPA): Oferece psicoterapia para a comunidade universitária e externa.",
+    },
   ];
 
   const capsUBS = [

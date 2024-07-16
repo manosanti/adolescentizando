@@ -14,7 +14,7 @@ function SpotifyPlaylist() {
         </div>
 
         <div>
-          <h2 className="font-semibold text-5xl text-green-500">
+          <h2 className="font-semibold text-5xl text-green-500 mb-3">
             Playlist Adolescentizando
           </h2>
           <iframe
