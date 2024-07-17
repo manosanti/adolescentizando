@@ -13,15 +13,15 @@ function App() {
   return (
     <div>
       <HomePage />
-      {/* <Founders /> */}
-      {/* <AboutAnxiety /> */}
-      {/* <LetterToFuture /> */}
-      {/* <DepressionTDAH /> */}
-      {/* <SpotifyPlaylist /> */}
-      {/* <TeraphyPrograms /> */}
-      {/* <AnxietyAttack /> */}
-      {/* <CVV /> */}
-      {/* <Conclusion /> */}
+      <Founders />
+      <AboutAnxiety />
+      <LetterToFuture />
+      <DepressionTDAH />
+      <SpotifyPlaylist />
+      <TeraphyPrograms />
+      <AnxietyAttack />
+      <CVV />
+      <Conclusion />
     </div>
   )
 }
