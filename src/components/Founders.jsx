@@ -34,8 +34,8 @@ function Founders() {
       descricao:
         "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
       redeSocial: {
-        instagram: "https://www.instagram.com/",
-        instagramNome: "manosanttt",
+        instagram: "https://www.instagram.com/mendess_souza/",
+        instagramNome: "mendess_souza",
       },
     },
     {
@@ -60,7 +60,7 @@ function Founders() {
       nome: "Lucas Santiago",
       cargo: "Desenvolvedor",
       descricao:
-        "Neurocientista em começo de carreira com especialização em desenvolvimento cerebral adolescente. Experiência em pesquisa neurobiológica, focada na análise de processos neurais durante a adolescência. Fundadora da Adolescentizando projeto voltado para suporte e recursos educativos para jovens",
+        "Desenvolvedor frontend no projeto Adolescentizando, apaixonado por criar interfaces intuitivas e experiências de usuário impactantes, além de ter grande interesse em jogar basquete sempre que possível.",
       redeSocial: {
         instagram: "https://www.instagram.com/manosanttt/",
         instagramNome: "manosanttt",
@@ -69,9 +69,9 @@ function Founders() {
   ];
 
   return (
-    <div className="bg-background-color p-32">
+    <div className="bg-background-color px-4 py-12 xl:p-32">
       <div className="max-w-7xl m-auto">
-        <h2 className="text-blue-primary text-center mb-4 font-bold text-7xl">
+        <h2 className="text-blue-primary text-center mb-4 font-bold text-5xl xl:text-7xl">
           QUEM SOMOS NÓS?
         </h2>
         <p className="text-center text-lg text-gray-description">
@@ -86,7 +86,7 @@ function Founders() {
         <div className="flex justify-center my-8 gap-2">
           <a
             href="#!"
-            className="flex text-4xl font-semibold items-center gap-2"
+            className="flex text-2xl xl:text-4xl font-semibold items-center gap-2"
           >
             <img src={instagramLogo} width={60} height={60} alt="" />
             <span className="text-instagram-gradient">_adolescentizando_</span>
@@ -94,7 +94,7 @@ function Founders() {
         </div>
 
         {/* Seção Responsáveis pelo Projeto */}
-        <div className="grid grid-cols-4 mb-24">
+        <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 xl:grid-cols-4 mb-24">
           {members.map((member, index) => (
             <div
               key={index}
