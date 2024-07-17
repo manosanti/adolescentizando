@@ -94,7 +94,7 @@ function Founders() {
         </div>
 
         {/* Seção Responsáveis pelo Projeto */}
-        <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 xl:grid-cols-4 mb-24">
+        <div className="grid grid-cols-1 grid-rows-2 xl:grid-rows-1 md:grid-cols-2 xl:grid-cols-4 mb-24">
           {members.map((member, index) => (
             <div
               key={index}
