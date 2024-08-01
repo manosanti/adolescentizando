@@ -1,4 +1,3 @@
-import React from "react";
 import instagramLogo from "../img/instagram-logo.png";
 
 // Images
@@ -60,7 +59,7 @@ function Founders() {
       nome: "Lucas Santiago",
       cargo: "Desenvolvedor",
       descricao:
-        "Desenvolvedor frontend no projeto Adolescentizando, apaixonado por criar interfaces intuitivas e experiências de usuário impactantes, além de ter grande interesse em jogar basquete sempre que possível.",
+        "Desenvolvedor frontend com especialização em design UI/UX, trabalhando com tecnologias como ReactJS e Angular. Responsável pelo desenvolvimento e parte visual do projeto Adolescentizando. Possui uma grande paixão pelo basquete, tanto jogando quanto acompanhando a NBA, e também aprecio uma ampla variedade de gêneros musicais. Considero-me um nerd fora da bolha, sempre buscando novas aventuras e conhecimentos.",
       redeSocial: {
         instagram: "https://www.instagram.com/manosanttt/",
         instagramNome: "manosanttt",
@@ -69,8 +68,8 @@ function Founders() {
   ];
 
   return (
-    <div className="bg-background-color px-4 xl:py-0 2xl:py-12 xl:p-14 2xl:p-32">
-      <div className="max-w-7xl m-auto">
+    <div className="bg-background-color px-4 xl:py-0 2xl:py-3 xl:p-14 2xl:p-32 2xl:px-0">
+      <div className="2xl:max-w-7xl m-auto">
         <h2 className="text-blue-primary text-center mb-4 font-bold text-5xl xl:text-7xl">
           QUEM SOMOS NÓS?
         </h2>
@@ -140,7 +139,7 @@ function Founders() {
 
         {/* Descrição Após Apresentação */}
         <div>
-          <div className="xl:grid xl:grid-rows-1 xl:min-h-screen xl:grid-cols-2 items-center">
+          <div className="xl:grid xl:grid-rows-1 xl:h-fit xl:grid-cols-2 items-center">
             <div className="flex justify-center">
               <img src={ilustracaoDescricao} className="mb-12 xl:mb-0" alt="" />
             </div>

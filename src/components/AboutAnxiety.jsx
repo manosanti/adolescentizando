@@ -37,7 +37,7 @@ function AboutAnxiety() {
 
   return (
     <div className="bg-background-color">
-      <div className="max-w-7xl xl:max-w-6xl m-auto">
+      <div className="2xl:max-w-7xl xl:max-w-6xl m-auto">
         <div className="text-center mb-12 xl:pt-20">
           <span className="text-blue-primary text-xl font-semibold">
             VAMOS FALAR SOBRE

@@ -6,7 +6,7 @@ import spotifyBrand from '../img/spotify.png'
 function SpotifyPlaylist() {
   return (
     <div className="bg-slate-900 min-h-screen xl:min-h-screen flex items-center">
-      <div className="max-w-7xl xl:max-w-6xl xl:py-16 mx-auto">
+      <div className="2xl:max-w-7xl xl:max-w-6xl xl:py-16 mx-auto">
         <div className="text-white mb-24">
           <span className="font-semibold">DIRETAMENTE DO SPOTIFY:</span>
           <h2 className="font-semibold text-5xl">OUÇA A NOSSA PLAYLIST</h2>

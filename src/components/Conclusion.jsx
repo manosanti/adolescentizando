@@ -7,7 +7,7 @@ import hugPhoto from "../img/hug.png";
 function Conclusion() {
   return (
     <div className="bg-background-color">
-      <div className="mx-auto max-w-7xl xl:max-w-6xl">
+      <div className="mx-auto 2xl:max-w-7xl xl:max-w-6xl">
         {/* Menção a um novo site */}
         <div className="grid grid-cols-2 items-center gap-16 py-24">
           <div>
