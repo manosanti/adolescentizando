@@ -5,7 +5,7 @@ import futureMe from '../img/futureme.png'
 
 function LetterToFuture() {
   return (
-    <div className="bg-background-color min-h-screen">
+    <div className="bg-background-color min-h-screen lg:pb-24">
       <div className="max-w-7xl grid gap-4 m-auto">
         <h2 className="font-bad-script text-blue-primary text-5xl w-2/6">Esta é uma carta para o Eu do Futuro</h2>
         <p>Escrever uma carta para o futuro é como lançar uma mensagem em uma garrafa ao mar do tempo. É um ato de esperança, um registro dos nossos sonhos, medos e desejos, destinado a nós mesmos ou a alguém especial, em um tempo ainda por vir. Ao colocar palavras no papel, capturamos a essência de quem somos no presente, na expectativa de revisitar essas memórias e observar o quanto crescemos, mudamos e realizamos. É um lembrete de que o futuro é uma página em branco, pronta para ser escrita com novas experiências e conquistas.</p>

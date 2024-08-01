@@ -5,7 +5,7 @@ import logoAdolescentizando from "../img/logo-adolescentizando.jpg";
 
 function HomePage() {
   return (
-    <div className="bg-bege-primary min-h-screen">
+    <div className="bg-background-color min-h-screen">
       <div className="mx-auto xl:max-w-7xl flex h-screen items-center">
         <div className="sm:grid gap-4 items-center justify-between xl:flex">
           <div className="xl:w-3/5 px-4 xl:p-0 mb-12 md:mb-6 xl:mb-0">
@@ -24,12 +24,14 @@ function HomePage() {
           </div>
 
           <div className="flex justify-center">
+            <a href="https://www.instagram.com/_adolescentizando_/" target="_blank">
             <img
               src={logoAdolescentizando}
               className="h-48 sm:h-64 md:h-96 rounded-full shadow-lg shadow-black/5"
               draggable="false"
               alt="Logo Adolescentizando"
-            />
+              />
+              </a>
           </div>
         </div>
       </div>

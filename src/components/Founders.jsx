@@ -139,28 +139,34 @@ function Founders() {
 
         {/* Descrição Após Apresentação */}
         <div>
-          <div className="grid grid-cols-2 items-center">
-            <img src={ilustracaoDescricao} alt="" />
-            <div>
-            {/* <h2 className="text-blue-primary font-bold text-4xl">Entenda o nosso propósito</h2> */}
-            <p className="text-lg text-start text-gray-description">
-              O nosso site é uma plataforma dedicada à saúde mental dos
-              adolescentes, criada com o objetivo de democratizar o acesso a
-              cuidados psicológicos. Nosso foco é promover a conscientização
-              sobre a importância da saúde mental e oferecer atividades
-              incríveis que auxiliem no autoconhecimento e no alívio durante
-              momentos de crise. Aqui os adolescentes encontram uma ampla gama
-              de recursos que visam informar e apoiar sua jornada emocional. Com
-              artigos, vídeos, e exercícios práticos, o site é um espaço seguro
-              para jovens que desejam entender melhor suas emoções e encontrar
-              estratégias eficazes para lidar com elas.<br></br>
-              Nosso objetivo é criar um espaço acolhedor e informativo, onde
-              cada jovem possa se sentir compreendido e apoiado. Através de
-              conteúdos cuidadosamente elaborados, queremos mostrar que ninguém
-              está sozinho em suas lutas e que é possível encontrar caminhos
-              para uma vida emocionalmente equilibrada e saudável. Esperamos que
-              sua jornada conosco seja muito proveitosa!
-            </p>
+          <div className="xl:grid xl:grid-rows-1 xl:grid-cols-2 items-center">
+            <div className="flex justify-center">
+              <img src={ilustracaoDescricao} className="mb-12 xl:mb-0" alt="" />
+            </div>
+            <div className="gap-6 flex flex-col text-lg text-start lg:text-start md:text-center text-gray-description">
+              <p>
+                O nosso site é uma plataforma dedicada à saúde mental dos
+                adolescentes, criada com o objetivo de democratizar o acesso a
+                cuidados psicológicos. Nosso foco é promover a conscientização
+                sobre a importância da saúde mental e oferecer atividades
+                incríveis que auxiliem no autoconhecimento e no alívio durante
+                momentos de crise.
+              </p>
+              <p>
+                Aqui os adolescentes encontram uma ampla gama de recursos que
+                visam informar e apoiar sua jornada emocional. Com artigos,
+                vídeos, e exercícios práticos, o site é um espaço seguro para
+                jovens que desejam entender melhor suas emoções e encontrar
+                estratégias eficazes para lidar com elas.
+              </p>
+              <p>
+                Nosso objetivo é criar um espaço acolhedor e informativo, onde
+                cada jovem possa se sentir compreendido e apoiado. Através de
+                conteúdos cuidadosamente elaborados, queremos mostrar que
+                ninguém está sozinho em suas lutas e que é possível encontrar
+                caminhos para uma vida emocionalmente equilibrada e saudável.
+              </p>
+              <p>Esperamos que sua jornada conosco seja muito proveitosa!</p>
             </div>
           </div>
         </div>
