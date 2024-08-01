@@ -1,4 +1,3 @@
-import React from "react";
 import instagramLogo from "../img/instagram-logo.png";
 
 // Images
@@ -16,7 +15,7 @@ function Founders() {
         textAlt: "teste",
       },
       nome: "Thaissa",
-      cargo: "CEO",
+      cargo: "Founder",
       descricao: `Thaíssa uma é  jovem ativista  apaixonada por psicologia,com um profundo desejo de transformar a realidade ao seu redor, dedicando-se a promover a conscientização sobre a importância do autoconhecimento,
           Thaíssa acredita que ao entender melhor a si mesmo, cada indivíduo pode descobrir suas verdadeiras potencialidades e superar desafios pessoais, contribuindo para uma sociedade mais justa e equilibrada.`,
       redeSocial: {
@@ -60,7 +59,7 @@ function Founders() {
       nome: "Lucas Santiago",
       cargo: "Desenvolvedor",
       descricao:
-        "Desenvolvedor frontend no projeto Adolescentizando, apaixonado por criar interfaces intuitivas e experiências de usuário impactantes, além de ter grande interesse em jogar basquete sempre que possível.",
+        "Desenvolvedor frontend com especialização em design UI/UX, trabalhando com tecnologias como ReactJS e Angular. Responsável pelo desenvolvimento e parte visual do projeto Adolescentizando. Possui uma grande paixão pelo basquete, tanto jogando quanto acompanhando a NBA, e também aprecio uma ampla variedade de gêneros musicais. Considero-me um nerd fora da bolha, sempre buscando novas aventuras e conhecimentos.",
       redeSocial: {
         instagram: "https://www.instagram.com/manosanttt/",
         instagramNome: "manosanttt",
@@ -69,8 +68,8 @@ function Founders() {
   ];
 
   return (
-    <div className="bg-background-color px-4 py-12 xl:p-32">
-      <div className="max-w-7xl m-auto">
+    <div className="bg-background-color px-4 xl:py-0 2xl:py-3 xl:p-14 2xl:p-32 2xl:px-0">
+      <div className="2xl:max-w-7xl m-auto">
         <h2 className="text-blue-primary text-center mb-4 font-bold text-5xl xl:text-7xl">
           QUEM SOMOS NÓS?
         </h2>
@@ -85,8 +84,9 @@ function Founders() {
         {/* Seção 'Follow' Instagram */}
         <div className="flex justify-center my-8 gap-2">
           <a
-            href="#!"
+            href="https://www.instagram.com/_adolescentizando_/"
             className="flex text-2xl xl:text-4xl font-semibold items-center gap-2"
+            target="_blank"
           >
             <img src={instagramLogo} width={60} height={60} alt="" />
             <span className="text-instagram-gradient">_adolescentizando_</span>
@@ -139,28 +139,34 @@ function Founders() {
 
         {/* Descrição Após Apresentação */}
         <div>
-          <div className="grid grid-cols-2 items-center">
-            <img src={ilustracaoDescricao} alt="" />
-            <div>
-            {/* <h2 className="text-blue-primary font-bold text-4xl">Entenda o nosso propósito</h2> */}
-            <p className="text-lg text-start text-gray-description">
-              O nosso site é uma plataforma dedicada à saúde mental dos
-              adolescentes, criada com o objetivo de democratizar o acesso a
-              cuidados psicológicos. Nosso foco é promover a conscientização
-              sobre a importância da saúde mental e oferecer atividades
-              incríveis que auxiliem no autoconhecimento e no alívio durante
-              momentos de crise. Aqui os adolescentes encontram uma ampla gama
-              de recursos que visam informar e apoiar sua jornada emocional. Com
-              artigos, vídeos, e exercícios práticos, o site é um espaço seguro
-              para jovens que desejam entender melhor suas emoções e encontrar
-              estratégias eficazes para lidar com elas.<br></br>
-              Nosso objetivo é criar um espaço acolhedor e informativo, onde
-              cada jovem possa se sentir compreendido e apoiado. Através de
-              conteúdos cuidadosamente elaborados, queremos mostrar que ninguém
-              está sozinho em suas lutas e que é possível encontrar caminhos
-              para uma vida emocionalmente equilibrada e saudável. Esperamos que
-              sua jornada conosco seja muito proveitosa!
-            </p>
+          <div className="xl:grid xl:grid-rows-1 xl:h-fit xl:grid-cols-2 items-center">
+            <div className="flex justify-center">
+              <img src={ilustracaoDescricao} className="mb-12 xl:mb-0" alt="" />
+            </div>
+            <div className="gap-6 flex flex-col text-lg text-start lg:text-start md:text-center text-gray-description">
+              <p>
+                O nosso site é uma plataforma dedicada à saúde mental dos
+                adolescentes, criada com o objetivo de democratizar o acesso a
+                cuidados psicológicos. Nosso foco é promover a conscientização
+                sobre a importância da saúde mental e oferecer atividades
+                incríveis que auxiliem no autoconhecimento e no alívio durante
+                momentos de crise.
+              </p>
+              <p>
+                Aqui os adolescentes encontram uma ampla gama de recursos que
+                visam informar e apoiar sua jornada emocional. Com artigos,
+                vídeos, e exercícios práticos, o site é um espaço seguro para
+                jovens que desejam entender melhor suas emoções e encontrar
+                estratégias eficazes para lidar com elas.
+              </p>
+              <p>
+                Nosso objetivo é criar um espaço acolhedor e informativo, onde
+                cada jovem possa se sentir compreendido e apoiado. Através de
+                conteúdos cuidadosamente elaborados, queremos mostrar que
+                ninguém está sozinho em suas lutas e que é possível encontrar
+                caminhos para uma vida emocionalmente equilibrada e saudável.
+              </p>
+              <p>Esperamos que sua jornada conosco seja muito proveitosa!</p>
             </div>
           </div>
         </div>

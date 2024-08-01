@@ -75,7 +75,7 @@ function TeraphyPrograms() {
 
   return (
     <div className="bg-background-color py-16">
-      <div className="max-w-7xl m-auto">
+      <div className="2xl:max-w-7xl xl:max-w-6xl m-auto">
         <div className="text-blue-primary text-center mb-12">
           <span className="font-semibold">SERVIÇOS PÚBLICOS DE SAÚDE</span>
           <h2 className="font-bold text-6xl mb-4">Programas de Terapias Acessíveis das Faculdades</h2>

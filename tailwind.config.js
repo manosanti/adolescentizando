@@ -11,7 +11,7 @@ export default {
         'background-color': '#E3EEFF',
         'gray-description': '#5E5E5E',
         'gray-primary': '#373737',
-        'bege-primary': '#FEFAEF',
+        'bege-primary': '#FFD45C',
       }
     },
   },
