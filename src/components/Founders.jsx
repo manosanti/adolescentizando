@@ -16,7 +16,7 @@ function Founders() {
         textAlt: "teste",
       },
       nome: "Thaissa",
-      cargo: "CEO",
+      cargo: "Founder",
       descricao: `Thaíssa uma é  jovem ativista  apaixonada por psicologia,com um profundo desejo de transformar a realidade ao seu redor, dedicando-se a promover a conscientização sobre a importância do autoconhecimento,
           Thaíssa acredita que ao entender melhor a si mesmo, cada indivíduo pode descobrir suas verdadeiras potencialidades e superar desafios pessoais, contribuindo para uma sociedade mais justa e equilibrada.`,
       redeSocial: {
@@ -69,7 +69,7 @@ function Founders() {
   ];
 
   return (
-    <div className="bg-background-color px-4 py-12 xl:p-32">
+    <div className="bg-background-color px-4 xl:py-0 2xl:py-12 xl:p-14 2xl:p-32">
       <div className="max-w-7xl m-auto">
         <h2 className="text-blue-primary text-center mb-4 font-bold text-5xl xl:text-7xl">
           QUEM SOMOS NÓS?
@@ -85,8 +85,9 @@ function Founders() {
         {/* Seção 'Follow' Instagram */}
         <div className="flex justify-center my-8 gap-2">
           <a
-            href="#!"
+            href="https://www.instagram.com/_adolescentizando_/"
             className="flex text-2xl xl:text-4xl font-semibold items-center gap-2"
+            target="_blank"
           >
             <img src={instagramLogo} width={60} height={60} alt="" />
             <span className="text-instagram-gradient">_adolescentizando_</span>
@@ -139,7 +140,7 @@ function Founders() {
 
         {/* Descrição Após Apresentação */}
         <div>
-          <div className="xl:grid xl:grid-rows-1 xl:grid-cols-2 items-center">
+          <div className="xl:grid xl:grid-rows-1 xl:min-h-screen xl:grid-cols-2 items-center">
             <div className="flex justify-center">
               <img src={ilustracaoDescricao} className="mb-12 xl:mb-0" alt="" />
             </div>

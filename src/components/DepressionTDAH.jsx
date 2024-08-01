@@ -3,7 +3,7 @@ import React from "react";
 function DepressionTDAH() {
   return (
     <div className="bg-background-color min-h-screen">
-      <div className="max-w-7xl m-auto">
+      <div className="max-w-7xl xl:max-w-6xl m-auto">
         <div className="text-blue-primary text-center mb-9">
           <span className="font-semibold">
             CONHECENDO TRANSTORNOS DE SAÚDE MENTAL
