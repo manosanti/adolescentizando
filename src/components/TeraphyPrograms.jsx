@@ -74,11 +74,11 @@ function TeraphyPrograms() {
   ];
 
   return (
-    <div className="bg-background-color py-16">
+    <div className="bg-background-color py-12 px-4">
       <div className="2xl:max-w-7xl xl:max-w-6xl m-auto">
         <div className="text-blue-primary text-center mb-12">
-          <span className="font-semibold">SERVIÇOS PÚBLICOS DE SAÚDE</span>
-          <h2 className="font-bold text-6xl mb-4">Programas de Terapias Acessíveis das Faculdades</h2>
+          <span className="font-semibold">SERVIÇOS PÚBLICOS DE SAÚDE:</span>
+          <h2 className="font-bold text-4xl xl:text-6xl mb-4">Programas de Terapias Acessíveis das Faculdades</h2>
           <p className="text-gray-primary">
             Muitas universidades renomadas oferecem serviços de psicoterapia a
             preços acessíveis ou até gratuitos, atendendo tanto estudantes

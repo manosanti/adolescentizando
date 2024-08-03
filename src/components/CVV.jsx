@@ -2,9 +2,9 @@ import React from "react";
 
 function CVV() {
   return (
-    <div className="bg-background-color py-14">
+    <div className="bg-background-color py-12 px-4">
       <div className="2xl:max-w-7xl xl:max-w-6xl mx-auto">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid xl:grid-cols-2 grid-cols-1 gap-10">
           <div>
             <span className="font-semibold text-blue-primary">
               CONHEÇA O CVV

@@ -36,13 +36,13 @@ function AboutAnxiety() {
   ];
 
   return (
-    <div className="bg-background-color">
-      <div className="2xl:max-w-7xl xl:max-w-6xl m-auto">
-        <div className="text-center mb-12 xl:pt-20">
+    <div className="bg-background-color py-12 2xl:py-0">
+      <div className="2xl:max-w-7xl xl:max-w-6xl px-4 mx-auto">
+        <div className="text-center 2xl:py-4 mb-12 xl:pt-20">
           <span className="text-blue-primary text-xl font-semibold">
             VAMOS FALAR SOBRE
           </span>
-          <h2 className="text-blue-primary font-bold text-6xl">
+          <h2 className="text-blue-primary font-bold md:text-4xl lg:text-4xl text-5xl xl:text-5xl 2xl:text-6xl">
             Transtorno de Ansiedade Generalizada
           </h2>
           <p>
@@ -67,7 +67,7 @@ function AboutAnxiety() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-4 mb-12">
+        <div className="grid grid-cols-1 2xl:grid-cols-4 mb-12">
           {waysToRelax.map((ways, index) => (
             <div
               key={index}
@@ -102,7 +102,7 @@ function AboutAnxiety() {
         </div>
 
         {/*  */}
-        <div className="grid grid-cols-2 xl:gap-4 pb-24">
+        <div className="grid 2xl:grid-cols-2 grid-cols-1 gap-8 xl:gap-4">
           <div>
             <h3 className="text-blue-primary text-2xl font-bold">
               Você não está sozinho!

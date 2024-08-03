@@ -6,12 +6,12 @@ import hugPhoto from "../img/hug.png";
 
 function Conclusion() {
   return (
-    <div className="bg-background-color">
+    <div className="bg-background-color py-12 px-4">
       <div className="mx-auto 2xl:max-w-7xl xl:max-w-6xl">
         {/* Menção a um novo site */}
-        <div className="grid grid-cols-2 items-center gap-16 py-24">
+        <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-16 xl:py-24">
           <div>
-            <h2 className="text-blue-primary font-bold text-5xl">
+            <h2 className="text-blue-primary font-bold text-5xl mb-4 xl:mb-0">
               Conheça a PsyMeet
             </h2>
             <p className="text-gray-primary text-xl">
@@ -28,7 +28,7 @@ function Conclusion() {
           <iframe
             src="https://www.psymeetsocial.com/"
             name="myiFrame"
-            className="rounded-xl xl:h-80 xl:w-full"
+            className="rounded-xl xl:h-80 w-full"
             scrolling="yes"
             frameborder="1"
             marginheight="0px"
@@ -37,21 +37,36 @@ function Conclusion() {
           ></iframe>
         </div>
 
-        <div className="grid grid-cols-2 gap-12 items-center xl:pb-20">
-          <img src={hugPhoto} alt="" />
-          <div>
-            <h2 className="font-semibold text-gray-primary text-xl">
-              Chegar até aqui é uma conquista, e agradecemos por dedicar seu tempo ao nosso site. Reconhecemos os desafios da saúde mental e queremos que saiba que não está sozinho. Esperamos que nosso conteúdo tenha oferecido insights e apoio valiosos. Além do site, temos uma comunidade ativa no Instagram com conteúdos diários de psicologia, neurociência e saúde mental. Agradecemos por confiar em nós e continuaremos a oferecer suporte e informação, acreditando que cada passo em direção à saúde mental é importante. Com gratidão, Equipe do Adolescentizando.
-            </h2>
-            <div className="flex justify-start my-8 gap-2">
-              <a
-                href="https://www.instagram.com/_adolescentizando_/"
-                className="flex text-2xl xl:text-4xl font-semibold items-center gap-2"
-                target="_blank"
-              >
-                <img src={instagramLogo} width={60} height={60} alt="" />
-                <span className="text-instagram-gradient">_adolescentizando_</span>
-              </a>
+        <div className="xl:grid xl:grid-cols-2 gap-12 items-center py-12 xl:pb-20">
+          <h2 className="text-blue-primary font-bold text-3xl mb-4 xl:mb-0">
+            Obrigado por 
+          </h2>
+          <div className="flex flex-col-reverse">
+            <img src={hugPhoto} alt="" />
+            <div>
+              <h2 className="font-semibold text-gray-primary text-xl">
+                Chegar até aqui é uma conquista, e agradecemos por dedicar seu
+                tempo ao nosso site. Reconhecemos os desafios da saúde mental e
+                queremos que saiba que não está sozinho. Esperamos que nosso
+                conteúdo tenha oferecido insights e apoio valiosos. Além do
+                site, temos uma comunidade ativa no Instagram com conteúdos
+                diários de psicologia, neurociência e saúde mental. Agradecemos
+                por confiar em nós e continuaremos a oferecer suporte e
+                informação, acreditando que cada passo em direção à saúde mental
+                é importante. Com gratidão, Equipe do Adolescentizando.
+              </h2>
+              <div className="flex justify-start my-8 gap-2">
+                <a
+                  href="https://www.instagram.com/_adolescentizando_/"
+                  className="flex text-2xl xl:text-4xl font-semibold items-center gap-2"
+                  target="_blank"
+                >
+                  <img src={instagramLogo} width={60} height={60} alt="" />
+                  <span className="text-instagram-gradient">
+                    _adolescentizando_
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

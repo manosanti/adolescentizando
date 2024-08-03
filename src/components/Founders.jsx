@@ -94,7 +94,7 @@ function Founders() {
         </div>
 
         {/* Seção Responsáveis pelo Projeto */}
-        <div className="grid grid-cols-1 grid-rows-2 xl:grid-rows-1 md:grid-cols-2 xl:grid-cols-4 mb-24">
+        <div className="grid grid-cols-1 grid-rows-2 xl:grid-rows-1 md:grid-cols-2 xl:grid-cols-4 mb-12">
           {members.map((member, index) => (
             <div
               key={index}
@@ -139,11 +139,14 @@ function Founders() {
 
         {/* Descrição Após Apresentação */}
         <div>
-          <div className="xl:grid xl:grid-rows-1 xl:h-fit xl:grid-cols-2 items-center">
-            <div className="flex justify-center">
+          <div className="xl:grid xl:grid-rows-1 xl:h-fit xl:grid-cols-2 pb-8 2xl:pb-0 items-center">
+            <div className="justify-center hidden 2xl:flex">
               <img src={ilustracaoDescricao} className="mb-12 xl:mb-0" alt="" />
             </div>
             <div className="gap-6 flex flex-col text-lg text-start lg:text-start md:text-center text-gray-description">
+              <h2 className="text-blue-primary text-center 2xl:text-start mb-4 font-bold text-3xl 2xl:text-4xl">
+                Propósito Adolescentizando
+              </h2>
               <p>
                 O nosso site é uma plataforma dedicada à saúde mental dos
                 adolescentes, criada com o objetivo de democratizar o acesso a
