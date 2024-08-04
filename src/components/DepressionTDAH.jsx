@@ -2,7 +2,7 @@ import React from "react";
 
 function DepressionTDAH() {
   return (
-    <div className="bg-background-color min-h-screen">
+    <div className="bg-background-color min-h-screen px-4">
       <div className="2xl:max-w-7xl xl:max-w-6xl m-auto">
         <div className="text-blue-primary text-center mb-9">
           <span className="font-semibold">
@@ -10,8 +10,8 @@ function DepressionTDAH() {
           </span>
           <h2 className="font-bold text-6xl">Depressão & TDAH</h2>
         </div>
-        <div className="grid grid-cols-2 gap-6 mb-12">
-          <div className="text-end">
+        <div className="grid grid-cols-1 2xl:grid-cols-2 gap-6 mb-12">
+          <div className="text-center 2xl:text-end">
             A depressão é um transtorno mental sério que vai além da tristeza
             passageira. Caracteriza-se por sentimentos persistentes de desânimo,
             perda de interesse em atividades antes prazerosas, alterações no
@@ -20,7 +20,7 @@ function DepressionTDAH() {
             necessitando de tratamento especializado, que pode incluir terapia e
             medicação.
           </div>
-          <div className="text-start">
+          <div className="text-center 2xl:text-start">
             O Transtorno de Déficit de Atenção e Hiperatividade (TDAH) é um
             distúrbio neuropsiquiátrico que afeta crianças e adultos. Os
             principais sintomas incluem desatenção, hiperatividade e
@@ -59,12 +59,12 @@ function DepressionTDAH() {
             </p>
           </div>
 
-          <div className="flex items-center justify-center my-8">
+          <div className="flex items-center justify-center flex-col md:flex-row xl:flex-row my-8">
             <i
               class="fa-solid fa-triangle-exclamation"
               style={{ color: "#1D5EC0", fontSize: "6rem" }}
             ></i>
-            <p className="text-blue-primary font-semibold text-center w-2/4">
+            <p className="text-blue-primary font-semibold text-center w-full xl:w-2/4">
               Se identificar algum sintoma, procure um profissional adequado
               para lhe avaliar. Não se autodiagnostique e nem se automedique!
             </p>

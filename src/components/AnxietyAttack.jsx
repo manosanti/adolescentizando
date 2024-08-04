@@ -46,11 +46,11 @@ function AnxietyAttack() {
     ]
 
   return (
-    <div className='bg-background-color min-h-screen 2xl:py-20 xl:py-10'>
+    <div className='bg-background-color min-h-screen py-12 px-4 2xl:py-20 xl:py-10'>
         <div className='2xl:max-w-7xl xl:max-w-6xl m-auto grid gap-7'>
             <div className='text-center text-blue-primary'>
-                <span className="font-semibold">VOCÊ ESTÁ PASSANDO POR UMA CRISE DE ANSIEDADE?</span>
-                <h2 className="font-bold text-6xl mb-4">PERGUNTE A SI MESMO:</h2>
+                <span className="font-semibold text-sm xl:text-base">VOCÊ ESTÁ PASSANDO POR UMA CRISE DE ANSIEDADE?</span>
+                <h2 className="font-bold xl:text-6xl text-5xl mb-4">PERGUNTE A SI MESMO:</h2>
             </div>
             {anxietyQuestions.map((anxietyList, index) =>
                 <div key={index}>
