@@ -5,11 +5,11 @@ import logoAdolescentizando from "../img/logo-adolescentizando.jpg";
 
 function HomePage() {
   return (
-    <div className="bg-background-color min-h-screen">
+    <div className="bg-background-color min-h-screen py-0 md:py-12 xl:py-0">
       <div className="mx-auto 2xl:max-w-7xl xl:max-w-6xl flex min-h-screen w-screen items-center">
-        <div className="sm:grid xl:gap-4 2xl:gap-12 items-center xl:justify-evenly 2xl:justify-center xl:flex 2xl:flex">
+        <div className="lg:grid lg:grid-cols-2 sm:grid xl:gap-4 2xl:gap-12 items-center xl:justify-evenly 2xl:justify-center xl:flex 2xl:flex">
           <div className="xl:w-3/5 px-4 xl:p-0 mb-12 md:mb-6 xl:mb-0">
-            <h2 className="xl:text-start font-bold mb-4 text-gray-primary text-3xl sm:text-5xl md:text-6xl">
+            <h2 className="xl:text-start font-bold mb-4 text-gray-primary text-3xl sm:text-5xl md:text-6xl lg:text-3xl">
               O seu guia para{" "}
               <span className="text-blue-500">Saúde Mental</span> é aqui, na{" "}
               <span className="text-blue-500">Adolescentizando</span>!

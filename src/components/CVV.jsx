@@ -45,7 +45,7 @@ function CVV() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
-              className="rounded-xl w-full h-full"
+              className="rounded-xl w-full h-full md:h-96"
             ></iframe>
           </div>
         </div>

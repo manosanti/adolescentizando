@@ -59,7 +59,7 @@ function DepressionTDAH() {
             </p>
           </div>
 
-          <div className="flex items-center justify-center flex-col xl:flex-row my-8">
+          <div className="flex items-center justify-center flex-col md:flex-row xl:flex-row my-8">
             <i
               class="fa-solid fa-triangle-exclamation"
               style={{ color: "#1D5EC0", fontSize: "6rem" }}

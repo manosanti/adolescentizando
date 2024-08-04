@@ -139,12 +139,12 @@ function Founders() {
 
         {/* Descrição Após Apresentação */}
         <div>
-          <div className="xl:grid xl:grid-rows-1 xl:h-fit xl:grid-cols-2 pb-8 2xl:pb-0 items-center">
-            <div className="justify-center hidden 2xl:flex">
+          <div className="xl:grid xl:grid-rows-1 xl:h-fit xl:grid-cols-2 pb-8 2xl:pb-0 xl:pb-24 items-center">
+            <div className="justify-center hidden lg:flex 2xl:flex">
               <img src={ilustracaoDescricao} className="mb-12 xl:mb-0" alt="" />
             </div>
-            <div className="gap-6 flex flex-col text-lg text-start lg:text-start md:text-center text-gray-description">
-              <h2 className="text-blue-primary text-center 2xl:text-start mb-4 font-bold text-3xl 2xl:text-4xl">
+            <div className="gap-6 flex flex-col text-lg text-start md:text-start lg:text-start text-gray-description">
+              <h2 className="text-blue-primary text-center 2xl:text-start mb-4 md:text-5xl font-bold text-3xl 2xl:text-4xl">
                 Propósito Adolescentizando
               </h2>
               <p>

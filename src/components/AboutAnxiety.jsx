@@ -67,7 +67,7 @@ function AboutAnxiety() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 2xl:grid-cols-4 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 mb-12">
           {waysToRelax.map((ways, index) => (
             <div
               key={index}
@@ -124,9 +124,9 @@ function AboutAnxiety() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 lg:flex lg:flex-row gap-6">
             <a href="https://youtu.be/5_kb-uEhxnY" target="_blank">
-              <img src={qrcodePeixinho} alt="" />
+              <img src={qrcodePeixinho} alt="" className="lg:w-full" />
               <span className="text-black/40">
                 clique na imagem para abrir o vídeo
               </span>

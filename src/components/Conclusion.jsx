@@ -28,7 +28,7 @@ function Conclusion() {
           <iframe
             src="https://www.psymeetsocial.com/"
             name="myiFrame"
-            className="rounded-xl xl:h-80 w-full"
+            className="rounded-xl h-80 xl:h-80 w-full"
             scrolling="yes"
             frameborder="1"
             marginheight="0px"
@@ -37,12 +37,12 @@ function Conclusion() {
           ></iframe>
         </div>
 
-        <div className="xl:grid xl:grid-cols-2 gap-12 items-center py-12 xl:pb-20">
-          <h2 className="text-blue-primary font-bold text-3xl mb-4 xl:mb-0">
-            Obrigado por 
+        <div className="xl:grid xl:grid-cols-1 gap-12 items-center py-12 lg:pb-0 xl:pb-20">
+          <h2 className="text-blue-primary font-bold text-3xl mb-4 xl:mb-0 xl:hidden">
+            Obrigado por chegar até aqui!
           </h2>
-          <div className="flex flex-col-reverse">
-            <img src={hugPhoto} alt="" />
+          <div className="flex flex-col-reverse lg:flex-row-reverse lg:items-center">
+            <img src={hugPhoto} alt="" className="w-full lg:w-2/4" />
             <div>
               <h2 className="font-semibold text-gray-primary text-xl">
                 Chegar até aqui é uma conquista, e agradecemos por dedicar seu
@@ -55,7 +55,8 @@ function Conclusion() {
                 informação, acreditando que cada passo em direção à saúde mental
                 é importante. Com gratidão, Equipe do Adolescentizando.
               </h2>
-              <div className="flex justify-start my-8 gap-2">
+              <div className="flex flex-col justify-start my-8 gap-2">
+                <p className="text-gray-description">Não esqueça de nos seguir no Instagram!</p>
                 <a
                   href="https://www.instagram.com/_adolescentizando_/"
                   className="flex text-2xl xl:text-4xl font-semibold items-center gap-2"
