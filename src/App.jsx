@@ -4,7 +4,7 @@ import AboutAnxiety from './components/AboutAnxiety'
 import LetterToFuture from './components/LetterToFuture'
 import DepressionTDAH from './components/DepressionTDAH'
 import SpotifyPlaylist from './components/SpotifyPlaylist'
-import TeraphyPrograms from './components/TeraphyPrograms'
+// import TeraphyPrograms from './components/TeraphyPrograms'
 import AnxietyAttack from './components/AnxietyAttack'
 import CVV from './components/CVV'
 import Conclusion from './components/Conclusion'
@@ -18,7 +18,7 @@ function App() {
       <LetterToFuture />
       <DepressionTDAH />
       <SpotifyPlaylist />
-      <TeraphyPrograms />
+      {/* <TeraphyPrograms /> */}
       <AnxietyAttack />
       <CVV />
       <Conclusion />
