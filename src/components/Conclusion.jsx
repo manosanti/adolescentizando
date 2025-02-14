@@ -9,7 +9,7 @@ function Conclusion() {
     <div className="bg-background-color py-12 px-4">
       <div className="mx-auto 2xl:max-w-7xl xl:max-w-6xl">
         {/* Menção a um novo site */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-16 xl:py-24">
+        {/* <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-16 xl:py-24">
           <div>
             <h2 className="text-blue-primary font-bold text-5xl mb-4 xl:mb-0">
               Conheça a PsyMeet
@@ -35,7 +35,7 @@ function Conclusion() {
             marginwidth="0px"
             allowfullscreen
           ></iframe>
-        </div>
+        </div> */}
 
         <div className="xl:grid xl:grid-cols-1 gap-12 items-center py-12 lg:pb-0 xl:pb-20">
           <h2 className="text-blue-primary font-bold text-3xl mb-4 xl:mb-0 xl:hidden">
