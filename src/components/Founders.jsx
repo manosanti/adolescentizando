@@ -84,12 +84,12 @@ function Founders() {
         {/* Seção 'Follow' Instagram */}
         <div className="flex justify-center my-8 gap-2">
           <a
-            href="https://www.instagram.com/_adolescentizando_/"
+            href="https://www.instagram.com/by.thaissanogueira/"
             className="flex text-2xl xl:text-4xl font-semibold items-center gap-2"
             target="_blank"
           >
             <img src={instagramLogo} width={60} height={60} alt="" />
-            <span className="text-instagram-gradient">_adolescentizando_</span>
+            <span className="text-instagram-gradient">by.thaissanogueira</span>
           </a>
         </div>
 

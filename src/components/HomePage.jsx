@@ -24,7 +24,7 @@ function HomePage() {
           </div>
 
           <div className="flex justify-center">
-            <a href="https://www.instagram.com/_adolescentizando_/" target="_blank">
+            <a href="https://www.instagram.com/by.thaissanogueira/" target="_blank">
             <img
               src={logoAdolescentizando}
               className="h-48 sm:h-64 md:h-96 rounded-full shadow-lg shadow-black/5"
